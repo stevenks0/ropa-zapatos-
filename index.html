@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Ropa y Zapatos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Tienda Fashion</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h2>Bienvenidos a Tienda Fashion</h2>
+        <p>Encuentra las mejores ofertas en ropa y zapatos de moda.</p>
+    </section>
+
+    <section id="productos" class="productos">
+        <h2>Nuestros Productos</h2>
+        <div class="producto">
+            <img src="camisa.jpg" alt="Camisa">
+            <h3>Camisa de Moda</h3>
+            <p>$30.00</p>
+            <button>Comprar</button>
+        </div>
+        <div class="producto">
+            <img src="pantalon.jpg" alt="Pantalón">
+            <h3>Pantalón Casual</h3>
+            <p>$45.00</p>
+            <button>Comprar</button>
+        </div>
+        <div class="producto">
+            <img src="zapatos.jpg" alt="Zapatos">
+            <h3>Zapatos Elegantes</h3>
+            <p>$60.00</p>
+            <button>Comprar</button>
+        </div>
+    </section>
+
+    <section id="contacto" class="contacto">
+        <h2>Contacto</h2>
+        <form action="#">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Tienda Fashion. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
